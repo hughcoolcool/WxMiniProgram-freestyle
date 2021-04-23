@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/mainPage/mainPage",
+    "pages/pyq/pyq",
+    "pages/me/me",
+    "pages/battleOption/battleOption"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#ff000d",
+    "navigationBarTitleText": "你有freestyle吗",
+    "navigationBarTextStyle": "black",
+    "navigationBackgroundColor": "#ff000d"
+  },
+  "tabBar": {
+    "backgroundColor": "#ff000d",
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "pages/images/2.png",
+        "iconPath": "pages/images/2.png",
+        "pagePath": "pages/mainPage/mainPage",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "pages/images/2.png",
+        "iconPath": "pages/images/2.png",
+        "pagePath": "pages/pyq/pyq",
+        "text": "朋友圈"
+      },
+      {
+        "selectedIconPath": "pages/images/2.png",
+        "iconPath": "pages/images/2.png",
+        "pagePath": "pages/me/me",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
