@@ -2,3 +2,7 @@
 <button bindtap="battle" style="position: relative; left: 0rpx; top: 371rpx">Battle</button>
 <view class='day-weather' bindtap='battle'>
 </view>
+
+
+  <image class='background'></image>
+

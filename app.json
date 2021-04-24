@@ -9,16 +9,16 @@
   ],
   "window": {
     "backgroundTextStyle": "dark",
-    "navigationBarBackgroundColor": "#ff000d",
+    "navigationBarBackgroundColor": "#000000",
     "navigationBarTitleText": "你有freestyle吗",
-    "navigationBarTextStyle": "black",
-    "navigationBackgroundColor": "#ff000d"
+    "navigationBarTextStyle": "white"
+    
   },
   "tabBar": {
-    "backgroundColor": "#ff000d",
-    "color": "#a9b7b7",
-    "selectedColor": "#11cd6e",
-    "borderStyle": "black",
+    "backgroundColor": "#000000",
+    "color": "#808080",
+    "selectedColor": "#FFFFFF",
+    "borderStyle": "white",
     "list": [
       {
         "selectedIconPath": "pages/images/2.png",
