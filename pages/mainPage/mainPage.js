@@ -1,40 +1,36 @@
 // pages/mainPage/mainPage.js
 
-//导入js
-var util = require('../../utils/util.js')
+
 Page({
+
+
   data: {
-    slider: [],
-    swiperCurrent: 0
+    imgUrls: [
+      "/pages/images/8.png",
+      "/pages/images/9.png",
+      "/pages/images/10.png"
+    ]
   },
-  onLoad: function () {
-    var that = this;
-//网络访问，获取轮播图的图片
-    util.getRecommend(function(data){
-      that.setData({
-        slider: data.data.slider
-      })
-    }); 
+
+  onLoad: function (options) {
+  
   },
-  //轮播图的切换事件
-  swiperChange: function(e){
-//只要把切换后当前的index传给<swiper>组件的current属性即可
+  /* 这里实现控制中间凸显图片的样式 */
+  handleChange: function(e) {
     this.setData({
-      swiperCurrent: e.detail.current
-    })
-  },
-  //点击指示点切换
-  chuangEvent: function(e){
-    this.setData({
-      swiperCurrent: e.currentTarget.id
+      currentIndex: e.detail.current
     })
   },
 
-  battle(){
+
+  battlewithfriend(){
     
     wx.navigateTo({
-      url: '/pages/battleOption/battleOption',
+      url: '/pages/battleOption/battlewithfriend/battlewithfriend',
     })
   }
+
+
+  
 })
  

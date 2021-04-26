@@ -1,8 +1,35 @@
 
-<button bindtap="battle" style="position: relative; left: 0rpx; top: 371rpx">Battle</button>
-<view class='day-weather' bindtap='battle'>
+<!-- <button bindtap="battle" style="position: relative; left: 47rpx; top: 180rpx">Battle</button> -->
+<!-- <view class='day-weather' bindtap='battle'>
+</view> -->
+
+
+<!-- 轮播图 -->
+<swiper class="imageContainer"  bindchange="handleChange" previous-margin="0rpx" next-margin="50rpx" circular autoplay indicator-dots="true">
+  <block wx:for="{{imgUrls}}" wx:key="index">
+    <swiper-item class="item">
+      <image src="{{item}}" class="itemImg" ></image>
+    </swiper-item>
+  </block>
+</swiper>
+
+
+<!-- 按键组 -->
+<view class="functions">
+
+  <button class="btn1"  bindtap="battlewithfriend"  
+  
+  plain="true"  style="position: relative; left: -190rpx; top: -3rpx; width: 347rpx; height: 258rpx; display: block; box-sizing: border-box"><image src="/pages/images/5.png" style="width: 310rpx; height: 286rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"></image></button>
+
+  <button class="btn2" plain="true"  style="position: relative; left: 190rpx; top: -132rpx; width: 352rpx; height: 263rpx; display: block; box-sizing: border-box"><image src="/pages/images/6.png" style="width: 282rpx; height: 228rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"></image></button>
+  <button class="btn3" plain="true"  style="position: relative; left: -172rpx; top: -204rpx; width: 310rpx; height: 228rpx; display: block; box-sizing: border-box"><image src="/pages/images/7.png" style="width: 284rpx; height: 209rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"></image></button>
+            
+         
+
 </view>
 
 
-  <image class='background'></image>
+
+
+  
 

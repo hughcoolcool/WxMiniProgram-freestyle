@@ -1,4 +1,4 @@
-// pages/battleOption/battleOption.js
+// pages/battleOption/battlewithfriend/battlewithfriend.js
 Page({
 
   /**

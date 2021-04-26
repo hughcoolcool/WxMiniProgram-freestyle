@@ -52,11 +52,6 @@ Page({
     })
   },
 
-  battle(){
-    
-    wx.navigateTo({
-      url: '/pages/battleOption/battleOption',
-    })
-  }
+
 
 })
