@@ -5,14 +5,13 @@
     "pages/mainPage/mainPage",
     "pages/pyq/pyq",
     "pages/me/me",
-    "pages/battleOption/battleOption"
+    "pages/battleOption/battlewithfriend/battlewithfriend"
   ],
   "window": {
     "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#000000",
     "navigationBarTitleText": "你有freestyle吗",
     "navigationBarTextStyle": "white"
-    
   },
   "tabBar": {
     "backgroundColor": "#000000",
