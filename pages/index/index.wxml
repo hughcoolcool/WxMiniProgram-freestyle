@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container" style="background-image:url(../images/background.jpg);">
+  <view class="icon">
+    <image style="opacity:1.0" src="/pages/images/icon.png" mode="cover"></image>
+    <button bindtap="go">go</button>
+  </view>
+  <view class="health-warm" style="text-align: center; width: 598rpx; height: 317rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+    <text class="health-warm-title" style="font-size:12px">\n\n\n健康游戏忠告\n</text>
+    <text class="health-warm-para" style="font-size:10px">抵制不良游戏，拒绝盗版游戏。注意自身保护，谨防受骗上当。\n适当游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活。</text>
+  </view>
+</view>
